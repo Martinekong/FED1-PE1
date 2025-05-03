@@ -46,8 +46,8 @@ git clone https://github.com/NoroffFEU/FED1-PE1-Martinekong.git
 
 ## Deployment
 
-This site is deployed using Netlify:  
-🔗 [fed1-pe1-momentum.netlify.app](https://fed1-pe1-momentum.netlify.app/)
+This site is deployed using GitHub pages:  
+🔗 [Momentum](https://martinekong.github.io/FED1-PE1/)
 
 ## Contact
 
