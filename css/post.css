@@ -1,0 +1,93 @@
+section {
+  margin-top: 7rem;
+}
+
+#post-container {
+  display: grid;
+  gap: 1rem;
+}
+
+.post-banner {
+  max-height: 400px;
+  border-radius: 6px;
+}
+
+.post-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  position: relative;
+}
+
+.author-info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.author-img {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 100%;
+}
+
+.author-info p {
+  font-size: 1rem;
+  align-self: center;
+}
+
+.author-info p:not(:last-child) {
+  padding-right: 1rem;
+  border-right: 1px solid var(--secondary);
+}
+
+.post-btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.post-btns button {
+  height: 50px;
+  width: 50px;
+}
+
+#post-container h1 {
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.message {
+  background-color: var(--container);
+  padding: .4rem 1rem;
+  display: none;
+  gap: 1rem;
+  border-radius: 6px;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: -2.8rem;
+}
+
+.message-visible {
+  display: flex;
+}
+
+.message p {
+  font-size: 1rem;
+}
+
+.message a {
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-family: var(--ff-body);
+  color: var(--primary);
+}
+
+@media screen and (min-width: 497px) {
+  .message {
+    right: 0;
+    left: unset;
+  }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Momentum, the blog that empowers you to move, lift and conquer! We are here to inspire you to achieve your goals with actionable advice, workout plans and nutrition tips. Momentum is a community-driven platform for motivation and support.">
+  <title>Momentum | Blog Feed</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <script src="https://kit.fontawesome.com/b47f15c436.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/script.js" type="module"></script>
+  <script src="js/index.js" type="module"></script>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">momentum</a>
+    <button id="menu-btn" aria-label="dropdown menu">
+      <i class="fa-solid fa-bars fa-3x" aria-hidden="true"></i>
+    </button>
+    <nav id="navigation-menu">
+      <ul id="navigation-list">
+        <li class="close-btn">
+          <i class="fa-solid fa-xmark fa-3x"></i>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1 class="hero-heading">find your power.<br> keep your momentum.</h1>
+    </section>
+
+    <section class="content-section">
+      <h2>most recent</h2>
+      <hr>
+      <p class="subtitle">browse and read our latest posts</p>
+
+
+      <div id="latest-posts">
+        <button class="chevron-btn" aria-label="previous post">
+          <i class="fa-solid fa-circle-chevron-left fa-4x" id="prev-btn" aria-hidden="true"></i>
+        </button>
+
+        <div class="loading-spinner hidden">
+          <i class="fa-solid fa-dumbbell fa-3x"></i>
+          <p>Momentum loading...</p>
+        </div>  
+
+        <div id="latest-carousel"></div>
+
+        <button class="chevron-btn" aria-label="next post">
+          <i class="fa-solid fa-circle-chevron-right fa-4x" id="next-btn" aria-hidden="true"></i>
+        </button>
+
+      </div>
+    </section>
+
+    <section class="content-section" id="grid">
+      <h2>our blog</h2>
+      <hr>
+      <p class="subtitle">browse through all posts</p>
+
+      <div class="grid-functionality">
+        <input type="search" id="search" placeholder="search..." aria-label="search for latest-posts"> 
+        <div class="icons">
+          <button id="filter" aria-label="filter posts">
+            <i class="fa-solid fa-filter fa-2x" aria-hidden="true"></i>
+          </button>
+          <button id="sort" aria-label="sort-posts">
+            <i class="fa-solid fa-arrow-down-wide-short fa-2x" id="sort-icon" aria-hidden="true"></i>
+          </button>  
+        </div> 
+      </div>
+
+      <div class="loading-spinner hidden">
+        <i class="fa-solid fa-dumbbell fa-3x"></i>
+        <p>Momentum loading...</p>
+      </div>
+
+      <div id="post-grid"></div>
+
+      <button class="primary-btn load-btn" id="load-more-btn">
+        <i class="fa-solid fa-chevron-down"></i>
+        load more
+      </button>  
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Martine Kongsrud. All rights reserved.</p>
+  </footer>
+</body>
+</html>

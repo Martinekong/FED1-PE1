@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Create a blog post at Momentum, and contribute in our mission to become a go-to source for fitness inspiration and knowledge, empowering people to embrace a healthy and active lifestyle.">
+  <title>Momentum | Create Post</title>
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+  <script src="https://kit.fontawesome.com/b47f15c436.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/post.css">
+  <script src="../js/script.js" type="module"></script>
+  <script src="../js/create-post.js" type="module"></script>
+</head>
+<body>
+  <header>
+    <a href="../index.html" class="logo">momentum</a>
+    <button id="menu-btn" aria-label="dropdown menu">
+      <i class="fa-solid fa-bars fa-3x" aria-hidden="true"></i>
+    </button>
+    <nav id="navigation-menu">
+      <ul id="navigation-list">
+        <li class="close-btn">
+          <i class="fa-solid fa-xmark fa-3x"></i>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Create New Post</h1>
+
+      <form id="create-form">
+        <label for="title">Title</label>
+        <input type="text" id="title" placeholder="Post title">
+
+        <label for="content">Content</label>
+        <textarea name="content" id="content" placeholder="Post content"></textarea>
+
+        <label for="imageURL">Image URL</label>
+        <input type="text" id="imageURL" placeholder="Post image URL">
+
+        <label for="imageALT">Image ALT</label>
+        <input type="text" id="imageALT" placeholder="Post image ALT text">
+
+        <label for="tags">Tags (seperate by space)</label>
+        <input type="text" id="tags" placeholder="Post tags">
+
+        <button type="submit" class="primary-btn">create post</button>  
+      </form>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Martine Kongsrud. All rights reserved.</p>
+  </footer>
+</body>
+</html>
