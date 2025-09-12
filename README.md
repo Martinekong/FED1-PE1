@@ -54,7 +54,7 @@ This site is deployed using GitHub pages:
 If you have any questions or feedback, feel free to reach out:
 
 - [LinkedIn](https://www.linkedin.com/in/martine-kongsrud)
-- Email: [martinekongrus@outlook.com](mailto:martinekongsrud@outlook.com)
+- Email: [martinekongsrud@outlook.com](mailto:martinekongsrud@outlook.com)
 
 ## Acknowledgments
 
